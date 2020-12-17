@@ -1,0 +1,15 @@
+Module 01 - Container, Dependency, and IoC
+
+Module 02 - Aspect Oriented Programming
+
+Module 03 - Data Management: JDBC, Transactions, JPA, Spring Data
+
+Module 04 – Spring Boot
+
+Module 05 - Spring MVC and The Web Layer
+
+Module 06 – Security
+
+Module 07 – REST
+
+Module 08 – Testing
