@@ -1,6 +1,5 @@
 package org.codeboy.conditon;
 
-import org.codeboy.bean.Role;
 import org.codeboy.bean.Title;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
