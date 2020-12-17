@@ -1,10 +1,8 @@
 package org.codeboy.config;
 
-import org.codeboy.bean.Person;
 import org.codeboy.filter.MyFilter;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.FilterType;
-import org.springframework.stereotype.Controller;
 
 /**
  * 启动包扫描，凡是标注了@Controller @Service @Repository @Component的组件都会被自动注册到容器中
