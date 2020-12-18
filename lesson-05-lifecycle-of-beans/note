@@ -1,0 +1,20 @@
+知识点：
+
+1 在@Bean注解中指定初始化和销毁方法
+    @Bean(initMethod = "init", destroyMethod = "destroy")
+注意：如果使用了@Scope("prototype")，destroyMethod会失效
+
+2 让bean实现InitializingBean & DisposableBean接口
+IoC容器将自动在对应的生命周期调用bean的afterPropertiesSet和destroy方法
+
+3 使用JSR250规定的 @PreDestroy and @PostConstruct 注解
+IoC容器将自动在对应的生命周期调用被注解的方法
+
+4 Spring提供的bean的后置处理器BeanPostProcessor接口
+@Bean ->
+Constructor ->
+BeanPostProcessor.postProcessBeforeInitialization ->
+@PostConstruct ->
+BeanPostProcessor.postProcessAfterInitialization ->
+@PreDestroy
+
