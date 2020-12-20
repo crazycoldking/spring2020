@@ -1,0 +1,21 @@
+Aspect Oriented Programming (AOP)
+
+1 Define aop class annotated with @Aspect annotation
+    - @Before
+    - @After
+    - @Returning
+    - @Throwing
+
+tips: value = "execution(METHOD_REFERENCE)"
+      returning="result"  -> Object
+      throwing="exception" -> Exception
+      JointPoint -> to get joint pointer info
+
+2 create bean in configuration or with annotation
+
+3 enable aspectj auto proxy - do not forget this step
+
+4 get bean with application context
+
+
+
