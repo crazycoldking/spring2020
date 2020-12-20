@@ -1,0 +1,5 @@
+@Autowired
+
+@Autowired是一个注释，它可以对类成员变量、方法及构造函数进行标注，让spring 完成 bean 自动装配的工作。
+
+@Autowired默认是按照类去匹配，配合@Qualifier 指定按照名称去装配bean。
